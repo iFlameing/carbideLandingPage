@@ -6,7 +6,7 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import { ThemeProvider } from "@material-ui/styles";
 import theme from "./theme";
 import * as serviceWorker from "./serviceWorker";
-
+import "../node_modules/font-awesome/css/font-awesome.min.css";
 ReactDOM.render(
   <ThemeProvider theme={theme}>
     <CssBaseline />

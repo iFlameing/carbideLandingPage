@@ -1,0 +1,91 @@
+.heading{
+    padding: 30px;
+}
+.heading h1 {
+        font-size: 50px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        text-align:center; 
+    
+    }
+.heading h1 span {
+        color: rgb(240, 83, 56);
+    }
+.heading h4 {
+        font-size: 25px;
+        font-weight: bold;
+        line-height: 1.7;
+        color: #5db892;
+        margin: 20px 0 60px;
+        padding: 0;
+        text-align: center;
+    }
+.heading1{
+    text-align: center;
+    color: rgb(101, 226, 43);
+}
+.heading .detail{
+    color:black;
+    font-size:20px;
+    text-align: justify
+
+}
+.image{
+    margin-left: 100px;
+}
+.mission{
+     margin-left: 40px;
+     
+}
+.mission1{
+    padding: 8px;
+    color:rgb(101, 226, 43);
+    text-align: center;
+
+}
+.points{
+    font-size: 22px;
+    padding: 30px;
+    margin: 0px;
+}
+.vision{
+    margin-left: 40px;
+    
+}
+.vision1{
+   padding: 8px;
+   color:rgb(101, 226, 43);
+   margin-left: 10px;
+   text-align: center;
+
+}
+.vision2{
+    color:black;
+    font-size:20px;
+    text-align: justify;
+    margin-left:50px;
+    margin-right: 50px;
+    padding: 5px;
+    
+}
+.product{
+    margin-left: 40px;
+    
+}
+.product1{
+   padding: 8px;
+   color:rgb(101, 226, 43);
+   margin-left: 10px;
+   text-align: center;
+
+}
+.product2{
+    color:black;
+    font-size:20px;
+    text-align: justify;
+    margin-left:50px;
+    margin-right: 50px;
+    padding: 5px;
+    
+}
