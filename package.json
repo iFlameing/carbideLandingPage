@@ -5,6 +5,7 @@
   "dependencies": {
     "@material-ui/core": "^4.3.3",
     "@material-ui/icons": "^4.2.1",
+    "font-awesome": "^4.7.0",
     "material-ui-icons": "^1.0.0-beta.36",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
@@ -30,5 +31,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PUNITBATRA/carbideLandingPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PUNITBATRA/carbideLandingPage/issues"
+  },
+  "homepage": "https://github.com/PUNITBATRA/carbideLandingPage#readme"
 }
