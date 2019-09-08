@@ -1,5 +1,5 @@
 import React from "react";
-import AppBar from "./Component/AppBar/AppBar";
+import ResponsiveDrawer from "./Component/AppBar/AppBar";
 import About from "./Component/About/About";
 import Footer from "./Component/Footer/Footer";
 import { Router } from "@reach/router";
@@ -7,7 +7,7 @@ import { Router } from "@reach/router";
 export default function App() {
   return (
     <div>
-      <AppBar />
+      <ResponsiveDrawer />
       <Router>
         <About path="about" />
       </Router>
