@@ -57,9 +57,10 @@ function ResponsiveDrawer() {
   const dummyCategories = [
     "Home",
     "About",
-    "Contact",
-    "Kuniyoshi",
-    "Yoshitoshi"
+    "Blog",
+    "Media",
+    "Gallery",
+    "Contact"
   ];
   const classes = useStyles();
   const theme = useTheme();
@@ -99,6 +100,15 @@ function ResponsiveDrawer() {
             </Link>
             <Link to="/about">
               <Button color="inherit">About</Button>
+            </Link>
+            <Link to="/about">
+              <Button color="inherit">Blog</Button>
+            </Link>
+            <Link to="/about">
+              <Button color="inherit">Media</Button>
+            </Link>
+            <Link to="/about">
+              <Button color="inherit">Gallery</Button>
             </Link>
             <a href="#contact">
               <Button color="inherit">Contact</Button>
