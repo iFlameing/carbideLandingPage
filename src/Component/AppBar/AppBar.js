@@ -45,9 +45,9 @@ export default function ButtonAppBar() {
             <Link to="/about">
               <Button color="inherit">About</Button>
             </Link>
-            <a href="#contact">
+            <Link to="/contact">
               <Button color="inherit">Contact</Button>
-            </a>
+              </Link>
           </span>
         </Toolbar>
       </AppBar>

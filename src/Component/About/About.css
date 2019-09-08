@@ -22,8 +22,14 @@
         text-align: center;
     }
 .heading1{
-    text-align: center;
-    color: rgb(101, 226, 43);
+   
+   color:rgb(125, 218, 82);
+   font-size: 20px;
+   text-align: center;
+   background-color:grey;
+}
+.heading1:hover{
+    background-color: black;
 }
 .heading .detail{
     color:black;
@@ -40,9 +46,12 @@
 }
 .mission1{
     padding: 8px;
-    color:rgb(101, 226, 43);
-    text-align: center;
-
+   color:rgb(125, 218, 82);
+   text-align: center;
+   background-color:grey;
+}
+.mission1:hover{
+    background-color: black;
 }
 .points{
     font-size: 22px;
@@ -54,11 +63,14 @@
     
 }
 .vision1{
-   padding: 8px;
-   color:rgb(101, 226, 43);
-   margin-left: 10px;
-   text-align: center;
-
+    padding: 8px;
+    color:rgb(125, 218, 82);
+    
+    text-align: center;
+    background-color:grey;
+}
+.vision1:hover{
+    background-color: black;
 }
 .vision2{
     color:black;
@@ -74,10 +86,14 @@
     
 }
 .product1{
-   padding: 8px;
-   color:rgb(101, 226, 43);
-   margin-left: 10px;
-   text-align: center;
+    padding: 8px;
+    color:rgb(125, 218, 82);
+    
+    text-align: center;
+    background-color:grey;
+}
+.product1:hover{
+    background-color: black;
 }
 .product2{
     color:black;
@@ -87,4 +103,29 @@
     margin-right: 50px;
     padding: 5px;
     
+}
+.team{
+    padding: 8px;
+   color:rgb(125, 218, 82);
+   
+   text-align: center;
+   background-color:grey;
+}
+.team:hover{
+    background-color:black; 
+}
+.pr1{
+    color:rgb(125, 218, 82);
+    font-size: 20px;
+    text-align: center;
+}
+.pr1:hover{
+    background-color: blue;;
+}
+.paper{
+   text-align:center;
+    
+}
+.paper:hover{
+    color:blueviolet;
 }
