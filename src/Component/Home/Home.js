@@ -4,8 +4,9 @@ import "./Home.css";
 class Home extends Component{
     render(){
         return(
-            <div>
-          <img src={carbadex} alt="about" className="home"></img></div>
+            <div className="house">
+          <img src={carbadex} alt="about" className="home"></img>
+          </div>
         );
     }
 }

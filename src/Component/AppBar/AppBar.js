@@ -89,7 +89,7 @@ function ResponsiveDrawer() {
   return (
     <div className={classes.root}>
       <CssBaseline />
-      <AppBar position="fixed" className={classes.appBar}>
+      <AppBar position="fixed" className={classes.appBar} color="secondary">
         <Toolbar>
           <IconButton
             color="inherit"
@@ -101,32 +101,32 @@ function ResponsiveDrawer() {
             <MenuIcon />
           </IconButton>
           <Hidden only="xs">
-          <Link to="/">
+          <Link style={{ textDecoration: 'none', color:'white' }} to="/">
               <Button color="inherit" className={classes.done}><i className="fa fa-home"></i></Button>
             </Link>
           <span className={classes.btn}>
-            <Link to="/about">
+            <Link style={{ textDecoration: 'none' ,color:'white' }} to="/about">
               <Button color="inherit">About</Button>
             </Link>
-            <Link to="/blog">
+            <Link style={{ textDecoration: 'none',color:'white' }} to="/blog">
               <Button color="inherit">Blog</Button>
             </Link>
-            <Link to="/media">
+            <Link style={{ textDecoration: 'none',color:'white' }} to="/media">
               <Button color="inherit">Media</Button>
             </Link>
-            <Link to="/gallery">
+            <Link style={{ textDecoration: 'none',color:'white' }} to="/gallery">
               <Button color="inherit">Gallery</Button>
             </Link>
-            <Link to="/team">
+            <Link style={{ textDecoration: 'none',color:'white' }} to="/team">
               <Button color="inherit">Team</Button>
             </Link>
-            <Link to="/achievements">
+            <Link style={{ textDecoration: 'none',color:'white' }} to="/achievements">
               <Button color="inherit">Achievements</Button>
             </Link>
-            <Link to="/contact">
+            <Link style={{ textDecoration: 'none',color:'white' }} to="/contact">
               <Button color="inherit">Contact</Button>
             </Link>
-            
+
           </span>
           </Hidden>
         </Toolbar>
@@ -156,7 +156,7 @@ function ResponsiveDrawer() {
           </Drawer>
         </Hidden>
       </nav>
-    
+
     </div>
   );
 }
