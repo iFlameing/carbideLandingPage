@@ -7,6 +7,7 @@
         margin: 0;
         padding: 0;
         text-align:center; 
+        font-family: 'oswald'
     
     }
 .heading h1 span {
@@ -20,6 +21,7 @@
         margin: 20px 0 60px;
         padding: 0;
         text-align: center;
+        font-family: 'oswald'
     }
 .heading1{
    
@@ -27,6 +29,7 @@
    font-size: 20px;
    text-align: center;
    background-color:grey;
+   font-family: 'oswald'
 }
 .heading1:hover{
     background-color: black;
@@ -34,8 +37,8 @@
 .heading .detail{
     color:black;
     font-size:20px;
-    text-align: justify
-
+    text-align: justify;
+    font-family: 'lato'
 }
 .image{
     margin-left: 100px;
@@ -49,6 +52,7 @@
    color:rgb(125, 218, 82);
    text-align: center;
    background-color:grey;
+   font-family: 'oswald'
 }
 .mission1:hover{
     background-color: black;
@@ -57,15 +61,16 @@
     font-size: 22px;
     padding: 30px;
     margin: 0px;
+    font-family: 'lato';
+    color: black;
 }
 .vision{
     margin-left: 40px;
-    
 }
 .vision1{
     padding: 8px;
     color:rgb(125, 218, 82);
-    
+    font-family: 'oswald';
     text-align: center;
     background-color:grey;
 }
@@ -79,6 +84,7 @@
     margin-left:50px;
     margin-right: 50px;
     padding: 5px;
+    font-family: 'lato'
     
 }
 .product{
@@ -88,7 +94,7 @@
 .product1{
     padding: 8px;
     color:rgb(125, 218, 82);
-    
+    font-family: 'oswald';
     text-align: center;
     background-color:grey;
 }
@@ -102,7 +108,7 @@
     margin-left:50px;
     margin-right: 50px;
     padding: 5px;
-    
+    font-family: 'lato'
 }
 .team{
     padding: 8px;
@@ -118,14 +124,18 @@
     color:rgb(125, 218, 82);
     font-size: 20px;
     text-align: center;
+    font-family: 'oswald'
 }
 .pr1:hover{
     background-color: blue;;
 }
 .paper{
    text-align:center;
-    
+   font-family: 'lato'
 }
 .paper:hover{
     color:blueviolet;
+}
+.about{
+    margin-top: 35px;
 }

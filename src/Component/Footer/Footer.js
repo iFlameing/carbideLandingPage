@@ -52,20 +52,20 @@ export default function footer() {
       </div>
       <footer className="copyright">
         <div className="icons">
-          <i href="https://www.facebook.com/flydexautomobiles/"
+          <a href="https://www.facebook.com/flydexautomobiles/"
             id="icon1"
             className="fa fa-facebook"
-          ></i>
-          <i href="https://www.instagram.com/flydexautomobiles/"
+          ></a>
+          <a href="https://www.instagram.com/flydexautomobiles/"
             id="icon2"
-            className="fa fa-instagram"></i>
-          <i href="#" id="icon4" className="fa fa-twitter"></i>
+            className="fa fa-instagram"></a>
+          <a href="#" id="icon4" className="fa fa-twitter"></a>
 
-          <i
+          <a
             href="mailto:flydexautomobiles@gmail.com"
             id="icon3"
             className="fa fa-envelope"
-          ></i>
+          ></a>
         </div>
         <p>
           © 2019 <a href="flydexautomobiles.com">Flydex Automobiles.</a> All

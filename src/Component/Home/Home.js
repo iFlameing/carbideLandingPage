@@ -1,10 +1,11 @@
 import React,{Component} from 'react';
-import carbadex from '../../carbadex.png';
+import carbadex from '../../carbadex.jpg';
+import "./Home.css";
 class Home extends Component{
     render(){
         return(
-            <div className='img'>
-          <img src={carbadex} alt="about" width='100%' height='100%'></img></div>
+            <div>
+          <img src={carbadex} alt="about" className="home"></img></div>
         );
     }
 }

@@ -6,7 +6,6 @@ import pr2 from '../../pr2.png';
 import pr3 from '../../pr3.png';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
-
 class About extends Component {
   render() {
     return (
@@ -132,82 +131,7 @@ Pollution Level.
     </div>
         </Grid>
   </Grid>
-  <div className='mission'>
-      <Grid item xs={6} lg={4} xl={3}>
-      <Paper elevation={4}><h2 className='mission1'>AWARDS AND RECOGNITION</h2></Paper></Grid> </div>
-     <div className='points'> <i className="fa fa-hand-o-right">  DIPP RECOGNIGED STARTUP (REGISTRATION NO. DIPP4505).</i>
-<i className="fa fa-hand-o-right">  RECOGNISED AS A STARTUP UNDER JAMMU and KASHMIR POLICY
-ON 1ST MARCH 2019 (RECOGNITION NO. 1324914395). </i>
-<i className="fa fa-hand-o-right">  SMVDU-TBIC RECOGNISED STARTUP ON 13TH JUNE 2017. </i>
-<i className="fa fa-hand-o-right">  3RD POSITION BEGGED IN GREEN ENERGY, STARTUP CATEGORY AT RISC 2018 AT NIRDPR, HYDERABAD.  </i>
-<i className="fa fa-hand-o-right">  2ND POSITION BEGGED IN PRODUCT STAGE CATEGORY AT UP STARTUP CONCLAVE-2018, IIM LUCKNOW. </i>
-<i className="fa fa-hand-o-right">  1ST POSITION AND 50 LACS INVESTMENT AGAINST 10% EQUITY SHARE (NEGOTIABLE) BEGGED AT STARTUP JALSA 4TH EDITION-2018 AT DHARMSHALA.</i>
   </div>
-  <div className='mission'>
-      <Grid item xs={6} lg={4} xl={3}>
-      <Paper elevation={4}><h2 className='mission1'>OUR TEAM</h2></Paper></Grid> </div>
-      <Grid container spacing={3}>
-      <Grid item xs={12} sm>
-  <Paper>    <div className="paper"><h2>Akash Srivastava</h2>
-          <p>Co-founder</p></div></Paper>
-        </Grid>
-        <Grid item xs={12} sm>
-     <Paper>   <div className="paper">  <h2>Aman Srivastava</h2>
-          <p>Co-founder</p></div></Paper>
-        </Grid>
-        <Grid item xs={12} sm>
-    <Paper>   <div className="paper">  <h2>Raj Kumar Srivastava</h2>
-          <p>Director</p></div></Paper>
-        </Grid>
-      </Grid>
-
-      <Grid container spacing={3}>
-      <Grid item xs={12} sm  >
-  <Paper>    <div className="paper"><h2>Anand Kumar Srivastava</h2>
-          <p>Director</p></div></Paper>
-        </Grid>
-        <Grid item xs={12} sm>
-     <Paper>   <div className="paper">  <h2>Ajay Kumar Srivastava</h2>
-          <p>Director</p></div></Paper>
-        </Grid>
-        <Grid item xs={12} sm>
-    <Paper>   <div className="paper">  <h2>Ramit Mam</h2>
-          <p>Company Secretary</p></div></Paper>
-        </Grid>
-      </Grid>
-
-
-     <Grid container spacing={3}>
-      <Grid item xs={12} sm  >
-  <Paper>    <div className="paper"><h2>Ashish Kumar Shukla</h2>
-          <p>Project Engineer</p></div></Paper>
-        </Grid>
-        <Grid item xs={12} sm>
-     <Paper>   <div className="paper">  <h2>Vivek Pandey</h2>
-          <p>Project Engineer</p></div></Paper>
-        </Grid>
-        <Grid item xs={12} sm>
-    <Paper>   <div className="paper">  <h2>Ashutosh Pandey</h2>
-          <p>Project Engineer</p></div></Paper>
-        </Grid>
-      </Grid>
-
-
-      <Grid container spacing={3}>
-      <Grid item xs={12} sm  >
-  <Paper>    <div className="paper"><h2>Vikas Kumar Pal</h2>
-          <p>Project Engineer</p></div></Paper>
-        </Grid>
-        <Grid item xs={12} sm>
-     <Paper>   <div className="paper">  <h2>Tarun Mahajan</h2>
-          <p>Project Engineer</p></div></Paper>
-        </Grid>
-        <Grid item xs={12} sm>
-    <Paper>   <div className="paper">  <h2>Aravind Singh</h2>
-          <p>Marketing Head</p></div></Paper>
-        </Grid>
-      </Grid> 
-</div>
     
     );
   }
