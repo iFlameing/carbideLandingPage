@@ -14,17 +14,15 @@ import Toolbar from "@material-ui/core/Toolbar";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { Link } from "@reach/router";
 import Button from "@material-ui/core/Button";
-import fly from '../../fly.png';
 
-//import VisibleItemList from '../containers/VisibleItemList'
 const drawerWidth = 240;
 const useStyles = makeStyles(theme => ({
   root: {
     display: "flex"
   },
   btn: {
-    marginLeft:"auto",
-    marginRight:30
+    marginLeft: "auto",
+    marginRight: 30
   },
   drawer: {
     [theme.breakpoints.up("sm")]: {
@@ -49,7 +47,7 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
     padding: theme.spacing(3)
   },
-  done:{
+  done: {
     flexGrow: 1,
     fontSize: 24
   },
@@ -66,8 +64,7 @@ function ResponsiveDrawer() {
     "Media",
     "Gallery",
     "Team",
-    "Achievements",
-    "Contact"
+    "Achievements"
   ];
   const classes = useStyles();
   const theme = useTheme();
@@ -78,11 +75,19 @@ function ResponsiveDrawer() {
   const drawer = (
     <div>
       <List>
-        {dummyCategories.map((text, index) => (
-          <ListItem button key={text}>
-            <ListItemText primary={text} />
-          </ListItem>
-        ))}
+        {dummyCategories.map((text, index) => {
+          let link = `/${text.toLowerCase()}`;
+          if (text === "Home") {
+            link = `/`;
+          }
+          return (
+            <Link to={link} style={{ textDecoration: "none", color: "#000" }}>
+              <ListItem button key={text}>
+                <ListItemText primary={text} />
+              </ListItem>
+            </Link>
+          );
+        })}
       </List>
     </div>
   );
@@ -101,33 +106,55 @@ function ResponsiveDrawer() {
             <MenuIcon />
           </IconButton>
           <Hidden only="xs">
-          <Link style={{ textDecoration: 'none', color:'white' }} to="/">
-              <Button color="inherit" className={classes.done}><i className="fa fa-home"></i></Button>
+            <Link style={{ textDecoration: "none", color: "white" }} to="/">
+              <Button color="inherit" className={classes.done}>
+                <i className="fa fa-home"></i>
+              </Button>
             </Link>
-          <span className={classes.btn}>
-            <Link style={{ textDecoration: 'none' ,color:'white' }} to="/about">
-              <Button color="inherit">About</Button>
-            </Link>
-            <Link style={{ textDecoration: 'none',color:'white' }} to="/blog">
-              <Button color="inherit">Blog</Button>
-            </Link>
-            <Link style={{ textDecoration: 'none',color:'white' }} to="/media">
-              <Button color="inherit">Media</Button>
-            </Link>
-            <Link style={{ textDecoration: 'none',color:'white' }} to="/gallery">
-              <Button color="inherit">Gallery</Button>
-            </Link>
-            <Link style={{ textDecoration: 'none',color:'white' }} to="/team">
-              <Button color="inherit">Team</Button>
-            </Link>
-            <Link style={{ textDecoration: 'none',color:'white' }} to="/achievements">
-              <Button color="inherit">Achievements</Button>
-            </Link>
-            <Link style={{ textDecoration: 'none',color:'white' }} to="/contact">
-              <Button color="inherit">Contact</Button>
-            </Link>
-
-          </span>
+            <span className={classes.btn}>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/about"
+              >
+                <Button color="inherit">About</Button>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/blog"
+              >
+                <Button color="inherit">Blog</Button>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/media"
+              >
+                <Button color="inherit">Media</Button>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/gallery"
+              >
+                <Button color="inherit">Gallery</Button>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/team"
+              >
+                <Button color="inherit">Team</Button>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/achievements"
+              >
+                <Button color="inherit">Achievements</Button>
+              </Link>
+              <a
+                style={{ textDecoration: "none", color: "white" }}
+                href="#contact"
+              >
+                <Button color="inherit">Contact</Button>
+              </a>
+            </span>
           </Hidden>
         </Toolbar>
       </AppBar>
@@ -156,7 +183,6 @@ function ResponsiveDrawer() {
           </Drawer>
         </Hidden>
       </nav>
-
     </div>
   );
 }

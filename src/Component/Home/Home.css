@@ -1,3 +1,4 @@
+
 .home{
     padding: 0px;
     margin: 0px;
@@ -6,5 +7,27 @@
 }
 
 .house {
-    margin-top:50px;
+    margin-top:60px;
+    background: url("../../carbadex.jpg") no-repeat;
+    background-position: "center";
+    height: "90vh";
+    width: "100%";
+    border: 2px 2px solid red;
 }
+.TypistClass{
+    font-size: 60px;
+    position: absolute;
+    top: 15%;
+    left: 1.5%;
+    font-family: "Oswald";
+}
+.img234{
+    height: 100vh;
+    width: 100%;
+}
+@media screen and (max-width: 480px) {
+    .TypistClass {
+        top: 10%;
+        font-size: 50px;
+    }
+  }

@@ -3,13 +3,12 @@ import Grid from "@material-ui/core/Grid";
 import "./Footer.css";
 import Typography from "@material-ui/core/Typography";
 
-
 export default function footer() {
   return (
     <div id="contact">
       <div id="icon">
-        <Grid container spacing={3}>
-          <Grid item xs={12}  sm={4} md={4} lg={4} xl>
+        <Grid container>
+          <Grid item xs={12} sm={4} md={4} lg={4} xl>
             <Typography variant="h6" gutterBottom>
               Head Office
             </Typography>
@@ -52,13 +51,16 @@ export default function footer() {
       </div>
       <footer className="copyright">
         <div className="icons">
-          <a href="https://www.facebook.com/flydexautomobiles/"
+          <a
+            href="https://www.facebook.com/flydexautomobiles/"
             id="icon1"
             className="fa fa-facebook"
           ></a>
-          <a href="https://www.instagram.com/flydexautomobiles/"
+          <a
+            href="https://www.instagram.com/flydexautomobiles/"
             id="icon2"
-            className="fa fa-instagram"></a>
+            className="fa fa-instagram"
+          ></a>
           <a href="#" id="icon4" className="fa fa-twitter"></a>
 
           <a
