@@ -14,6 +14,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { Link } from "@reach/router";
 import Button from "@material-ui/core/Button";
+import fly from '../../fly.png';
 
 //import VisibleItemList from '../containers/VisibleItemList'
 const drawerWidth = 240;
@@ -48,6 +49,10 @@ const useStyles = makeStyles(theme => ({
     flexGrow: 1,
     padding: theme.spacing(3)
   },
+  done:{
+    flexGrow: 1,
+    fontSize: 24
+  },
   closeMenuButton: {
     marginRight: "auto",
     marginLeft: 0
@@ -60,6 +65,8 @@ function ResponsiveDrawer() {
     "Blog",
     "Media",
     "Gallery",
+    "Team",
+    "Achievements",
     "Contact"
   ];
   const classes = useStyles();
@@ -94,32 +101,38 @@ function ResponsiveDrawer() {
             <MenuIcon />
           </IconButton>
           <Hidden only="xs">
-          <span className={classes.btn}>
-            <Link to="/">
-              <Button color="inherit">Home</Button>
+          <Link to="/">
+              <Button color="inherit" className={classes.done}><i className="fa fa-home"></i></Button>
             </Link>
+          <span className={classes.btn}>
             <Link to="/about">
               <Button color="inherit">About</Button>
             </Link>
-            <Link to="/about">
+            <Link to="/blog">
               <Button color="inherit">Blog</Button>
             </Link>
-            <Link to="/about">
+            <Link to="/media">
               <Button color="inherit">Media</Button>
             </Link>
-            <Link to="/about">
+            <Link to="/gallery">
               <Button color="inherit">Gallery</Button>
             </Link>
-            <a href="#contact">
+            <Link to="/team">
+              <Button color="inherit">Team</Button>
+            </Link>
+            <Link to="/achievements">
+              <Button color="inherit">Achievements</Button>
+            </Link>
+            <Link to="/contact">
               <Button color="inherit">Contact</Button>
-            </a>
+            </Link>
+            
           </span>
           </Hidden>
         </Toolbar>
       </AppBar>
 
       <nav className={classes.drawer}>
-        {/* The implementation can be swapped with js to avoid SEO duplication of links. */}
         <Hidden smUp implementation="css">
           <Drawer
             variant="temporary"
@@ -143,15 +156,11 @@ function ResponsiveDrawer() {
           </Drawer>
         </Hidden>
       </nav>
-      <div className={classes.content}>
-        <div className={classes.toolbar} />
-      </div>
+    
     </div>
   );
 }
 ResponsiveDrawer.propTypes = {
-  // Injected by the documentation to work in an iframe.
-  // You won't need it on your project.
   container: PropTypes.object
 };
 export default ResponsiveDrawer;
