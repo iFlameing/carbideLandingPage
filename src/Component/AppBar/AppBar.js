@@ -81,7 +81,11 @@ function ResponsiveDrawer() {
             link = `/`;
           }
           return (
-            <Link to={link} style={{ textDecoration: "none", color: "#000" }}>
+            <Link
+              key={index}
+              to={link}
+              style={{ textDecoration: "none", color: "#000" }}
+            >
               <ListItem button key={text}>
                 <ListItemText primary={text} />
               </ListItem>
