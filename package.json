@@ -1,5 +1,5 @@
 {
-  "name": "mech",
+  "name": "Carbide Landing Page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -40,12 +40,12 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/PUNITBATRA/carbideLandingPage.git"
+    "url": "git+https://github.com/iFlameing/carbideLandingPage.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/PUNITBATRA/carbideLandingPage/issues"
+    "url": "https://github.com/iFlameing/carbideLandingPage.git"
   },
-  "homepage": "https://github.com/PUNITBATRA/carbideLandingPage#readme"
+  "homepage": "https://github.com/iFlameing/carbideLandingPage.git"
 }
