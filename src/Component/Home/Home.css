@@ -8,7 +8,6 @@
 
 .house {
     margin-top:60px;
-    background: url("../../carbadex.jpg") no-repeat;
     background-position: "center";
     height: "90vh";
     width: "100%";
@@ -17,7 +16,7 @@
     font-size: 60px;
     position: absolute;
     top: 15%;
-    left: 1.5%;
+    left: 9%;
     font-family: "Oswald";
 }
 .img234{

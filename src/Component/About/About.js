@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./About.css";
 import fly from "../../fly.png";
-import pr1 from "../../pr1.png";
-import pr2 from "../../pr2.png";
-import pr3 from "../../pr3.png";
+import pr1 from "../../manifolds.JPG";
+import pr2 from "../../Throttling Device.JPG";
+import pr3 from "../../Separator Box.JPG";
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
 class About extends Component {
@@ -47,36 +47,29 @@ class About extends Component {
               <Paper elevation={4}>
                 <h2 className="mission1">MISSION</h2>
               </Paper>
-            </Grid>{" "}
+            </Grid>
           </div>
           <div className="points">
-            {" "}
             <i className="fa fa-hand-o-right">
-              {" "}
               Develop innovative products which decrease fuel and energy
               consumption.
             </i>
             <i className="fa fa-hand-o-right">
-              {" "}
               Develop products which are compatible with I.C Engines as well as
-              on rotatory motion devices.{" "}
+              on rotatory motion devices.
             </i>
             <i className="fa fa-hand-o-right">
-              {" "}
               Low fuel and energy consumption to make environment less polluted
-              and energizing.{" "}
+              and energizing.
             </i>
             <i className="fa fa-hand-o-right">
-              {" "}
-              Increasing the engine life without affecting it’s performance.{" "}
+              Increasing the engine life without affecting it’s performance.
             </i>
             <i className="fa fa-hand-o-right">
-              {" "}
               Develop products of superior value by focusing on the customer
-              problems.{" "}
+              problems.
             </i>
             <i className="fa fa-hand-o-right">
-              {" "}
               To make Indian Industries highly Productive By reducing Power
               Consumption through using our products in their Machinery.
             </i>
@@ -86,7 +79,7 @@ class About extends Component {
               <Paper elevation={4}>
                 <h2 className="vision1">VISION</h2>
               </Paper>
-            </Grid>{" "}
+            </Grid>
           </div>
           <p className="vision2">
             We are proud to be A Company That Is Focused On Reducing Fuel and
@@ -107,7 +100,7 @@ class About extends Component {
             <Paper elevation={4}>
               <h2 className="product1">PRODUCT DETAILS</h2>
             </Paper>
-          </Grid>{" "}
+          </Grid>
         </div>
         <p className="product2">
           The Present Invented Device is a Milestone in the Direction Towards
@@ -137,23 +130,18 @@ class About extends Component {
               <b>INTAKE MANIFOLD</b>
             </h2>
             <div className="points">
-              {" "}
               <i className="fa fa-arrow-right">
-                {" "}
                 Made of Aluminium-nickel Alloy.
               </i>
               <i className="fa fa-arrow-right">
-                {" "}
-                Universal Adjustment Available.{" "}
+                Universal Adjustment Available.
               </i>
               <i className="fa fa-arrow-right"> Easily Fitted In 2-Wheeler. </i>
               <i className="fa fa-arrow-right">
-                {" "}
-                Compatible with 100cc,125cc,150cc & 180cc Bikes.{" "}
+                Compatible with 100cc,125cc,150cc & 180cc Bikes.
               </i>
               <i className="fa fa-arrow-right">
-                {" "}
-                Installed At Carburetor And Combustion Chamber.{" "}
+                Installed At Carburetor And Combustion Chamber.
               </i>
             </div>
           </Grid>
@@ -165,29 +153,24 @@ class About extends Component {
               <b>CYLINDRICAL SEPERATOR</b>
             </h2>
             <div className="points">
-              {" "}
               <i className="fa fa-arrow-right">
-                {" "}
                 Available In Nickel & Aluminium Material.
               </i>
               <i className="fa fa-arrow-right"> Air tight Container. </i>
               <i className="fa fa-arrow-right">
-                {" "}
-                Converts Liquid Droplets Of Petrol In Gaseous State.{" "}
+                Converts Liquid Droplets Of Petrol In Gaseous State.
               </i>
               <i className="fa fa-arrow-right">
-                {" "}
-                Seperate Impurities Like Water & Kerosene Oil From Petrol.{" "}
+                Seperate Impurities Like Water & Kerosene Oil From Petrol.
               </i>
               <i className="fa fa-arrow-right">
-                {" "}
-                Connected With Carburetor And Throttling Devices.{" "}
+                Connected With Carburetor And Throttling Devices.
               </i>
             </div>
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
             <div className="image">
-              <img src={pr2} alt="about" width="70%" height="60%"></img>
+              <img src={pr3} alt="about" width="70%" height="60%"></img>
             </div>
           </Grid>
         </Grid>
@@ -197,7 +180,7 @@ class About extends Component {
             <div className="image">
               <br />
               <br />
-              <img src={pr3} alt="about" width="70%" height="60%"></img>
+              <img src={pr2} alt="about" width="70%" height="60%"></img>
             </div>
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
@@ -205,23 +188,18 @@ class About extends Component {
               <b>THROTTLING DEVICE</b>
             </h2>
             <div className="points">
-              {" "}
               <i className="fa fa-arrow-right">
-                {" "}
                 Made Of Aluminium And Iron Alloy.
               </i>
               <i className="fa fa-arrow-right">
-                {" "}
                 To Regulate The Flow Of Gaseous Air & Petrol Mixture Into The
-                Combustion Chamber.{" "}
+                Combustion Chamber.
               </i>
               <i className="fa fa-arrow-right">
-                {" "}
-                Connected With Accelerated Wire.{" "}
+                Connected With Accelerated Wire.
               </i>
               <i className="fa fa-arrow-right">
-                {" "}
-                Located Between Cylindrical Seperator & Combustion Chamber.{" "}
+                Located Between Cylindrical Seperator & Combustion Chamber.
               </i>
             </div>
           </Grid>

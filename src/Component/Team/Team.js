@@ -70,8 +70,8 @@ class Team extends Component {
               {" "}
               <div className="paper">
                 {" "}
-                <h2>Ramit Mam</h2>
-                <p>Company Secretary</p>
+                <h2>Arvind Singh</h2>
+                <p>Marketing Head</p>
               </div>
             </Paper>
           </Grid>
@@ -102,8 +102,8 @@ class Team extends Component {
               {" "}
               <div className="paper">
                 {" "}
-                <h2>Ashutosh Pandey</h2>
-                <p>Project Engineer</p>
+                <h2>Ramit Mam</h2>
+                <p>Company Secretary</p>
               </div>
             </Paper>
           </Grid>
@@ -124,7 +124,7 @@ class Team extends Component {
               {" "}
               <div className="paper">
                 {" "}
-                <h2>Tarun Mahajan</h2>
+                <h2>Rithik Nayyar</h2>
                 <p>Project Engineer</p>
               </div>
             </Paper>
@@ -134,8 +134,8 @@ class Team extends Component {
               {" "}
               <div className="paper">
                 {" "}
-                <h2>Aravind Singh</h2>
-                <p>Marketing Head</p>
+                <h2>Ashutosh Pandey</h2>
+                <p>Project Engineer</p>
               </div>
             </Paper>
           </Grid>{" "}

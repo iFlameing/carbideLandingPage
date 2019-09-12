@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Typist from "react-typist";
-import carbadex from "../../carbadex.jpg";
+import carbadex from "../../Carbadex.png";
 import "./Home.css";
 class Home extends Component {
   render() {
@@ -11,7 +11,7 @@ class Home extends Component {
           cursor={{ hideWhenDone: true, hideWhenDoneDelay: 10 }}
           className="TypistClass"
         >
-          Carbadex
+          CARBADEX
         </Typist>
       </div>
     );
