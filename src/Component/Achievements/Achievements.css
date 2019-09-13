@@ -4,6 +4,20 @@
 .achieve1{
     margin-left: 20px;
 }
-.points{
-    font-family: 'lato'
-}
+#myDIV {
+    font-size: 20px;
+    font-style: 'oswald';
+    padding: 30px;
+    color: rgb(255, 0, 0);
+    -webkit-animation: mymove 4s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 4s infinite;
+  }
+  
+  /* Safari 4.0 - 8.0 */
+  @-webkit-keyframes mymove {
+    50% {color: blue;}
+  }
+  
+  @keyframes mymove {
+    50% {color: blue;}
+  }

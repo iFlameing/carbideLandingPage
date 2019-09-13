@@ -127,7 +127,9 @@
     font-family: 'oswald'
 }
 .pr1:hover{
-    background-color: blue;;
+    border: 2px solid black;
+    background-color: grey
+
 }
 .paper{
    text-align:center;
