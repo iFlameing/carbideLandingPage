@@ -120,7 +120,7 @@ class About extends Component {
         <Grid container>
           <Grid item xs={12} lg={6} md={6}>
             <div className="image">
-              <img src={pr1} alt="about" width="70%" height="60%"></img>
+              <img src={pr1} alt="about" width="50%" height="80%"></img>
             </div>
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
@@ -170,7 +170,7 @@ class About extends Component {
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
             <div className="image">
-              <img src={pr3} alt="about" width="70%" height="60%"></img>
+              <img src={pr3} alt="about" width="50%" height="80%"></img>
             </div>
           </Grid>
         </Grid>
@@ -180,7 +180,7 @@ class About extends Component {
             <div className="image">
               <br />
               <br />
-              <img src={pr2} alt="about" width="70%" height="60%"></img>
+              <img src={pr2} alt="about" width="50%" height="80%"></img>
             </div>
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
