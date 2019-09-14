@@ -170,7 +170,7 @@ class About extends Component {
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
             <div className="image">
-              <img src={pr3} alt="about" width="50%" height="80%"></img>
+              <img src={pr3} alt="about" width="50%" ></img>
             </div>
           </Grid>
         </Grid>
