@@ -39,7 +39,7 @@ export default function footer() {
               Landline: 0522-3594337
               <br />
               Email ID:
-              <a href="mailto:flydexautomobiles@gmail.com">
+              <a id="mail" href="mailto:flydexautomobiles@gmail.com">
                 {" "}
                 flydexautomobiles@gmail.com
               </a>

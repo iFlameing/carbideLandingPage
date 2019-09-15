@@ -22,7 +22,7 @@ class About extends Component {
           <Grid container>
             <Grid item xs={12} lg={6} md={6}>
               <div className="image">
-                <img src={fly} alt="about" width="70%" height="60%"></img>
+                <img src={fly} alt="about" className="image1"></img>
               </div>
             </Grid>
             <Grid item xs={12} lg={6} md={6}>
@@ -89,7 +89,6 @@ class About extends Component {
             Environment Friendly. Further We Also Intended To Help Our Customer
             To Enhance Their Economic Capacity By Reducing To Input Cost To
             Their Vehicle and Home Appliances.
-            <br />
             Our Research And Develop Wing Is Sharply Focussing On Every Aspects
             Of Energy Saving And Enhancing.
           </p>
@@ -119,7 +118,7 @@ class About extends Component {
 
         <Grid container>
           <Grid item xs={12} lg={6} md={6}>
-            <div className="image">
+            <div className="image2">
               <img src={pr1} alt="about" width="50%" height="80%"></img>
             </div>
           </Grid>
@@ -169,7 +168,7 @@ class About extends Component {
             </div>
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
-            <div className="image">
+            <div className="image2">
               <img src={pr3} alt="about" width="50%" ></img>
             </div>
           </Grid>
@@ -177,7 +176,7 @@ class About extends Component {
         <br />
         <Grid container>
           <Grid item xs={12} lg={6} md={6}>
-            <div className="image">
+            <div className="image2">
               <br />
               <br />
               <img src={pr2} alt="about" width="50%" height="80%"></img>

@@ -34,7 +34,7 @@ a{
 }
 #icon3{
     color:white;
-    text-decoration:none;
+    text-decoration: none;
     padding:8px;
 }
 #icon4{
@@ -44,4 +44,7 @@ a{
 }
 #contact{
     margin-top: 20px;
+}
+#mail{
+    text-decoration: none;
 }
