@@ -64,7 +64,10 @@ function ResponsiveDrawer() {
     "Media",
     "Gallery",
     "Team",
-    "Achievements"
+    "Achievements",
+    "Franchise",
+    "Distributor",
+    "Contact"
   ];
   const classes = useStyles();
   const theme = useTheme();
@@ -152,6 +155,19 @@ function ResponsiveDrawer() {
               >
                 <Button color="inherit">Achievements</Button>
               </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/Distributor"
+              >
+                <Button color="inherit">Distributor</Button>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/Franchise"
+              >
+                <Button color="inherit">Franchise</Button>
+              </Link>
+
               <a
                 style={{ textDecoration: "none", color: "white" }}
                 href="#contact"
@@ -174,7 +190,7 @@ function ResponsiveDrawer() {
               paper: classes.drawerPaper
             }}
             ModalProps={{
-              keepMounted: true // Better open performance on mobile.
+              keepMounted: true
             }}
           >
             <IconButton

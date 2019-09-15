@@ -6,9 +6,9 @@
         font-weight: 700;
         margin: 0;
         padding: 0;
-        text-align:center; 
+        text-align:center;
         font-family: 'oswald'
-    
+
     }
 .heading h1 span {
         color: rgb(240, 83, 56);
@@ -24,7 +24,7 @@
         font-family: 'oswald'
     }
 .heading1{
-   
+
    color:rgb(125, 218, 82);
    font-size: 20px;
    text-align: center;
@@ -38,29 +38,38 @@
     color:black;
     font-size:20px;
     text-align: justify;
-    font-family: 'lato'
+    font-family: 'lato';
 }
 .image{
     margin-left: 100px;
 }
+.image1{
+    width: 70%;
+    height: 60%;
+}
+.image2{
+    margin-left: 100px;
+}
 .mission{
      margin-left: 40px;
-     
+
 }
 .mission1{
     padding: 8px;
    color:rgb(125, 218, 82);
    text-align: center;
    background-color:grey;
-   font-family: 'oswald'
+   text-align: justify;
+   font-family: 'oswald';
 }
 .mission1:hover{
     background-color: black;
 }
 .points{
-    font-size: 22px;
+    font-size: 20px;
     padding: 30px;
     margin: 0px;
+    text-align: justify;
     font-family: 'lato';
     color: black;
 }
@@ -81,15 +90,15 @@
     color:black;
     font-size:20px;
     text-align: justify;
-    margin-left:50px;
+    margin-left: 20px;
     margin-right: 50px;
     padding: 5px;
     font-family: 'lato'
-    
+
 }
 .product{
     margin-left: 40px;
-    
+
 }
 .product1{
     padding: 8px;
@@ -105,20 +114,19 @@
     color:black;
     font-size:20px;
     text-align: justify;
-    margin-left:50px;
+    margin-left:20px;
     margin-right: 50px;
     padding: 5px;
     font-family: 'lato'
 }
 .team{
-    padding: 8px;
+   padding: 8px;
    color:rgb(125, 218, 82);
-   
    text-align: center;
    background-color:grey;
 }
 .team:hover{
-    background-color:black; 
+    background-color:black;
 }
 .pr1{
     color:rgb(125, 218, 82);
@@ -132,7 +140,7 @@
 
 }
 .paper{
-   text-align:center;
+   text-align: center;
    font-family: 'lato'
 }
 .paper:hover{
@@ -141,3 +149,12 @@
 .about{
     margin-top: 35px;
 }
+@media screen and (max-width: 720px) {
+    .image{
+        margin-left: 0px;
+    }
+    .image1{
+        width: 100%;
+        height: 100%;
+    }
+  }
