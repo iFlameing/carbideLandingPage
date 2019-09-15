@@ -1,7 +1,7 @@
 .paper{
     text-align:center;
     font-family: 'lato'
-     
+
  }
  .paper:hover{
      color:blueviolet;
@@ -13,7 +13,6 @@
    padding: 8px;
   color:rgb(125, 218, 82);
   text-align: center;
-  background-color:grey;
 }
 .mission1:hover{
    background-color: black;

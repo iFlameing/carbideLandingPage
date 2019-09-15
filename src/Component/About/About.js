@@ -50,29 +50,13 @@ class About extends Component {
             </Grid>
           </div>
           <div className="points">
-            <i className="fa fa-hand-o-right">
-              Develop innovative products which decrease fuel and energy
-              consumption.
-            </i>
-            <i className="fa fa-hand-o-right">
-              Develop products which are compatible with I.C Engines as well as
-              on rotatory motion devices.
-            </i>
-            <i className="fa fa-hand-o-right">
-              Low fuel and energy consumption to make environment less polluted
-              and energizing.
-            </i>
-            <i className="fa fa-hand-o-right">
-              Increasing the engine life without affecting it’s performance.
-            </i>
-            <i className="fa fa-hand-o-right">
-              Develop products of superior value by focusing on the customer
-              problems.
-            </i>
-            <i className="fa fa-hand-o-right">
-              To make Indian Industries highly Productive By reducing Power
-              Consumption through using our products in their Machinery.
-            </i>
+            Develop innovative products which decrease fuel and energy consumption.<br/>
+            Develop products which are compatible with I.C Engines as well as on rotatory motion devices.<br/>
+            Low fuel and energy consumption to make environment less polluted and energizing.<br/>
+            Increasing the engine life without affecting it’s performance.<br/>
+            Develop products of superior value by focusing on the customer problems.<br/>
+            To make Indian Industries highly Productive By reducing Power Consumption through using our products in their Machinery.
+            <br/>
           </div>
           <div className="vision">
             <Grid item xs={6} lg={4} xl={3}>
@@ -123,48 +107,31 @@ class About extends Component {
             </div>
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
-            <br />
-            <br />
-            <h2 className="pr1">
+       <Paper elevation={4}>     <h2 className="pr1">
               <b>INTAKE MANIFOLD</b>
-            </h2>
+            </h2></Paper>
             <div className="points">
-              <i className="fa fa-arrow-right">
-                Made of Aluminium-nickel Alloy.
-              </i>
-              <i className="fa fa-arrow-right">
-                Universal Adjustment Available.
-              </i>
-              <i className="fa fa-arrow-right"> Easily Fitted In 2-Wheeler. </i>
-              <i className="fa fa-arrow-right">
-                Compatible with 100cc,125cc,150cc & 180cc Bikes.
-              </i>
-              <i className="fa fa-arrow-right">
-                Installed At Carburetor And Combustion Chamber.
-              </i>
+              Made of Aluminium-nickel Alloy.<br/>
+              Universal Adjustment Available.<br/>
+              Easily Fitted In 2-Wheeler. <br/>
+              Compatible with 100cc,125cc,150cc & 180cc Bikes.<br/>
+              Installed At Carburetor And Combustion Chamber.
+              <br/>
             </div>
           </Grid>
         </Grid>
         <br />
         <Grid container>
           <Grid item xs={12} lg={6} md={6}>
-            <h2 className="pr1">
+            <Paper elevation={4}><h2 className="pr1">
               <b>CYLINDRICAL SEPERATOR</b>
-            </h2>
+            </h2></Paper>
             <div className="points">
-              <i className="fa fa-arrow-right">
-                Available In Nickel & Aluminium Material.
-              </i>
-              <i className="fa fa-arrow-right"> Air tight Container. </i>
-              <i className="fa fa-arrow-right">
-                Converts Liquid Droplets Of Petrol In Gaseous State.
-              </i>
-              <i className="fa fa-arrow-right">
-                Seperate Impurities Like Water & Kerosene Oil From Petrol.
-              </i>
-              <i className="fa fa-arrow-right">
-                Connected With Carburetor And Throttling Devices.
-              </i>
+              Available In Nickel & Aluminium Material.<br/>
+              Air tight Container. <br/>
+              Converts Liquid Droplets Of Petrol In Gaseous State.<br/>
+              Seperate Impurities Like Water & Kerosene Oil From Petrol.<br/>
+              Connected With Carburetor And Throttling Devices.
             </div>
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
@@ -183,23 +150,14 @@ class About extends Component {
             </div>
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
-            <h2 className="pr1">
+        <Paper elevation={4}>   <h2 className="pr1">
               <b>THROTTLING DEVICE</b>
-            </h2>
+            </h2></Paper>
             <div className="points">
-              <i className="fa fa-arrow-right">
-                Made Of Aluminium And Iron Alloy.
-              </i>
-              <i className="fa fa-arrow-right">
-                To Regulate The Flow Of Gaseous Air & Petrol Mixture Into The
-                Combustion Chamber.
-              </i>
-              <i className="fa fa-arrow-right">
-                Connected With Accelerated Wire.
-              </i>
-              <i className="fa fa-arrow-right">
-                Located Between Cylindrical Seperator & Combustion Chamber.
-              </i>
+              Made Of Aluminium And Iron Alloy.<br/>
+              To Regulate The Flow Of Gaseous Air & Petrol Mixture Into The Combustion Chamber.<br/>
+              Connected With Accelerated Wire.<br/>
+             Located Between Cylindrical Seperator & Combustion Chamber.
             </div>
           </Grid>
         </Grid>
