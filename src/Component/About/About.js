@@ -32,11 +32,11 @@ class About extends Component {
                 <h2 className="heading1">ABOUT THE COMPANY</h2>
               </Paper>
               <p className="detail">
-                Company Founded On 13th June 2017 By Akash Srivastava, FLYDEX
-                AUTOMOBILES is a private Company That Focuses On Manufacturing
-                Products For Automobiles That Reduces Their Fuel Consumption
-                Thus Reducing Pollution And Providing A Much Greener Solution To
-                The Automobile Industry.
+                Company founded on 13th June 2017 by Akash Srivastava, FLYDEX
+                AUTOMOBILES is a private company that focuses on manufacturing
+                products for automobiles that reduces their fuel consumption
+                thus reducing pollution and providing a much greener solution to
+                the Automobile Industry.
               </p>
             </Grid>
           </Grid>
@@ -55,7 +55,7 @@ class About extends Component {
             Low fuel and energy consumption to make environment less polluted and energizing.<br/>
             Increasing the engine life without affecting it’s performance.<br/>
             Develop products of superior value by focusing on the customer problems.<br/>
-            To make Indian Industries highly Productive By reducing Power Consumption through using our products in their Machinery.
+            To make Indian Industries highly productive by reducing power consumption through using our products in their machinery.
             <br/>
           </div>
           <div className="vision">
@@ -66,15 +66,15 @@ class About extends Component {
             </Grid>
           </div>
           <p className="vision2">
-            We are proud to be A Company That Is Focused On Reducing Fuel and
-            Energy Consumption Without Compromising The Performance Of The I. C.
-            Engine or Any Kind of Rotary Motion Devices As Well As Making The
-            Emission Of Harmful Gases Lesser So That Fuel Consumption Is More
-            Environment Friendly. Further We Also Intended To Help Our Customer
-            To Enhance Their Economic Capacity By Reducing To Input Cost To
-            Their Vehicle and Home Appliances.
-            Our Research And Develop Wing Is Sharply Focussing On Every Aspects
-            Of Energy Saving And Enhancing.
+            We are proud to be a company that is focused on reducing fuel and
+            energy consumption without compromising the performance of the I.C.
+            engine or any kind of Rotary Motion Devices as well as making the
+          emission of harmful Gases lesser so that fuel consumption is more
+            environment friendly. Further we also intended to help our customer
+            to enhance their economic capacity by reducing to input cost to
+            their vehicle and home appliances.
+            Our research and develop wing is sharply focussing on every aspects
+            of energy saving and enhancing.
           </p>
         </div>
         <br />
@@ -86,12 +86,12 @@ class About extends Component {
           </Grid>
         </div>
         <p className="product2">
-          The Present Invented Device is a Milestone in the Direction Towards
-          increase in Fuel Efficiency. There Are Many Techniques and ideas
-          available to do so. However By Using The Proposed Device, It is Easy
-          to Increase the mileage and power of Any Gasoline Or Petrol Internal
-          Combustion Engine. The Present Invention is a Milestone in the Field
-          of Automobile Sector to Reduce The Effect of Greenhouse Gases and
+          The present invented device is a milestone in the direction towards
+          increase in fuel efficiency. There are many techniques and ideas
+          available to do so. However by using the proposed device, It is easy
+          to increase the mileage and power of any Gasoline or petrol internal
+          combustion engine. The present invention is a milestone in the field
+          of Automobile sector to reduce the effect of Greenhouse Gases and
           Pollution Level.
           <li>Two wheeler/Three wheeler Products</li>
           <li>Four wheeler Products</li>
@@ -111,11 +111,11 @@ class About extends Component {
               <b>INTAKE MANIFOLD</b>
             </h2></Paper>
             <div className="points">
-              Made of Aluminium-nickel Alloy.<br/>
-              Universal Adjustment Available.<br/>
-              Easily Fitted In 2-Wheeler. <br/>
+              Made of Aluminium-Nickel alloy.<br/>
+              Universal adjustment available.<br/>
+              Easily fitted in 2-wheeler. <br/>
               Compatible with 100cc,125cc,150cc & 180cc Bikes.<br/>
-              Installed At Carburetor And Combustion Chamber.
+              Installed at carburetor and combustion chamber.
               <br/>
             </div>
           </Grid>
@@ -127,11 +127,11 @@ class About extends Component {
               <b>CYLINDRICAL SEPERATOR</b>
             </h2></Paper>
             <div className="points">
-              Available In Nickel & Aluminium Material.<br/>
-              Air tight Container. <br/>
-              Converts Liquid Droplets Of Petrol In Gaseous State.<br/>
-              Seperate Impurities Like Water & Kerosene Oil From Petrol.<br/>
-              Connected With Carburetor And Throttling Devices.
+              Available in Nickel & Aluminium material.<br/>
+              Air tight container. <br/>
+              Converts liquid droplets of Petrol in Gaseous state.<br/>
+              Seperate Impurities like Water & Kerosene oil from Petrol.<br/>
+              Connected with Carburetor and Throttling Devices.
             </div>
           </Grid>
           <Grid item xs={12} lg={6} md={6}>
@@ -154,10 +154,10 @@ class About extends Component {
               <b>THROTTLING DEVICE</b>
             </h2></Paper>
             <div className="points">
-              Made Of Aluminium And Iron Alloy.<br/>
-              To Regulate The Flow Of Gaseous Air & Petrol Mixture Into The Combustion Chamber.<br/>
-              Connected With Accelerated Wire.<br/>
-             Located Between Cylindrical Seperator & Combustion Chamber.
+              Made of Aluminium and Iron alloy.<br/>
+              To regulate the flow of Gaseous air & Petrol Mixture into the combustion chamber.<br/>
+              Connected with accelerated wire.<br/>
+             Located between cylindrical seperator & combustion chamber.
             </div>
           </Grid>
         </Grid>

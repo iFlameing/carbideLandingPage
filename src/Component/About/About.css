@@ -30,9 +30,7 @@
    text-align: center;
    font-family: 'oswald'
 }
-.heading1:hover{
-    background-color: black;
-}
+
 .heading .detail{
     color:black;
     font-size:20px;
@@ -54,22 +52,21 @@
 
 }
 .mission1{
-    padding: 8px;
+   padding: 8px;
    color:rgb(125, 218, 82);
    text-align: center;
-   text-align: justify;
    font-family: 'oswald';
 }
-.mission1:hover{
-    background-color: black;
-}
+
 .points{
     font-size: 20px;
     margin-left: 30px;
     text-align: justify;
     font-family: 'Raleway';
     color: black;
+    margin-right:50px;
 }
+
 .vision{
     margin-left: 40px;
 }
@@ -79,9 +76,7 @@
     font-family: 'oswald';
     text-align: center;
 }
-.vision1:hover{
-    background-color: black;
-}
+
 .vision2{
     color:black;
     font-size:20px;
@@ -102,9 +97,7 @@
     font-family: 'oswald';
     text-align: center;
 }
-.product1:hover{
-    background-color: black;
-}
+
 .product2{
     color:black;
     font-size:20px;
