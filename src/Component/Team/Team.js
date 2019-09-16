@@ -9,7 +9,7 @@ class Team extends Component {
         <div className="mission">
           <Grid item xs={6} lg={4} xl={3}>
             <Paper elevation={4}>
-              <h2 className="mission1">OUR TEAM</h2>
+              <h2 className="missiont1">OUR TEAM</h2>
             </Paper>
           </Grid>{" "}
         </div>
