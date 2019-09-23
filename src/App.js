@@ -6,6 +6,8 @@ import { Router } from "@reach/router";
 import Home from "./Component/Home/Home";
 import Team from "./Component/Team/Team";
 import Achievements from "./Component/Achievements/Achievements";
+import SignIn from "./Component/SignIn/SignIn";
+import SignUp from "./Component/SignUp/SignUp";
 export default function App() {
   return (
     <div>
@@ -21,6 +23,12 @@ export default function App() {
       </Router>
       <Router>
         <Achievements path="achievements" />
+      </Router>
+      <Router>
+        <SignIn path="SignIn" />
+      </Router>
+      <Router>
+        <SignUp path="SignUp" />
       </Router>
       <Footer />
     </div>

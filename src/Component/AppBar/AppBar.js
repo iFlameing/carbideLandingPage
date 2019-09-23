@@ -67,7 +67,9 @@ function ResponsiveDrawer() {
     "Achievements",
     "Franchise",
     "Distributor",
-    "Contact"
+    "Contact",
+    "Sign In",
+    "Sign Up"
   ];
   const classes = useStyles();
   const theme = useTheme();
@@ -174,6 +176,18 @@ function ResponsiveDrawer() {
               >
                 <Button color="inherit">Contact</Button>
               </a>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/SignIn"
+              >
+                <Button color="inherit">Sign In</Button>
+              </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/SignUp"
+              >
+                <Button color="inherit">Sign Up</Button>
+              </Link>
             </span>
           </Hidden>
         </Toolbar>
