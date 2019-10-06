@@ -188,6 +188,12 @@ function ResponsiveDrawer() {
               >
                 <Button color="inherit">Sign Up</Button>
               </Link>
+              <Link
+                style={{ textDecoration: "none", color: "white" }}
+                to="/Opportunity"
+              >
+                <Button color="inherit">Oppor</Button>
+              </Link>
             </span>
           </Hidden>
         </Toolbar>
