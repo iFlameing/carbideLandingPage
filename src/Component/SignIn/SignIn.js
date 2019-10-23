@@ -7,8 +7,6 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 import Link from '@material-ui/core/Link';
 import Grid from '@material-ui/core/Grid';
-import Box from '@material-ui/core/Box';
-import LockOutlinedIcon from '@material-ui/icons/LockOutlined';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 import Container from '@material-ui/core/Container';
@@ -29,7 +27,7 @@ function Copyright() {
 const useStyles = makeStyles(theme => ({
   '@global': {
     body: {
-      backgroundColor: theme.palette.common.white,
+      background: '#1e2e56',
     },
   },
   paper: {
@@ -40,15 +38,25 @@ const useStyles = makeStyles(theme => ({
   },
   avatar: {
     margin: theme.spacing(1),
-    backgroundColor: theme.palette.secondary.main,
+    background: '#ffffff',
   },
   form: {
     width: '100%', // Fix IE 11 issue.
     marginTop: theme.spacing(1),
+    color: '#ffffff'
   },
   submit: {
     margin: theme.spacing(3, 0, 2),
   },
+  text: {
+    color:'#ffffff',
+    fontWeight: 400,
+  },
+  keshav: {
+    color: '#ffffff',
+    fontFamily: 'Aileron'
+  }
+
 }));
 
 export default function SignIn() {
@@ -58,10 +66,7 @@ export default function SignIn() {
     <Container component="main" maxWidth="xs">
       <CssBaseline />
       <div className={classes.paper}>
-        <Avatar className={classes.avatar}>
-          <LockOutlinedIcon />
-        </Avatar>
-        <Typography component="h1" variant="h5">
+        <Typography component="h1" variant="h5" className={classes.text}>
           Sign in
         </Typography>
         <form className={classes.form} noValidate>
@@ -75,6 +80,11 @@ export default function SignIn() {
             name="email"
             autoComplete="email"
             autoFocus
+            InputProps={{
+              classes: {
+                  input: classes.keshav
+              }
+          }}
           />
           <TextField
             variant="outlined"
@@ -86,6 +96,9 @@ export default function SignIn() {
             type="password"
             id="password"
             autoComplete="current-password"
+            InputProps={{
+              className: classes.keshav
+            }}
           />
           <FormControlLabel
             control={<Checkbox value="remember" color="primary" />}
@@ -102,21 +115,18 @@ export default function SignIn() {
           </Button>
           <Grid container>
             <Grid item xs>
-              <Link href="#" variant="body2">
+              <Link href="#" variant="body2" className={classes.keshav}>
                 Forgot password?
               </Link>
             </Grid>
             <Grid item>
-              <Link href="SignUp" variant="body2">
+              <Link href="SignUp" variant="body2" className={classes.keshav}>
                 {"Don't have an account? Sign Up"}
               </Link>
             </Grid>
           </Grid>
         </form>
       </div>
-      <Box mt={8}>
-        <Copyright />
-      </Box>
     </Container>
   );
 }
