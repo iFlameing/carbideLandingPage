@@ -14,6 +14,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { Link } from "@reach/router";
 import Button from "@material-ui/core/Button";
+import Grid from '@material-ui/core/Grid';
 
 const drawerWidth = 240;
 const useStyles = makeStyles(theme => ({
@@ -21,8 +22,7 @@ const useStyles = makeStyles(theme => ({
     display: "flex"
   },
   btn: {
-    marginLeft: "auto",
-    marginRight: 30
+    flexGrow: 1,
   },
   drawer: {
     [theme.breakpoints.up("sm")]: {
@@ -31,7 +31,10 @@ const useStyles = makeStyles(theme => ({
     }
   },
   appBar: {
-    zIndex: theme.zIndex.drawer + 1
+    zIndex: theme.zIndex.drawer + 1,
+    height: 30,
+    alignItems: "center",
+    justifyContent: "center"
   },
   menuButton: {
     marginRight: theme.spacing(2),
@@ -49,7 +52,7 @@ const useStyles = makeStyles(theme => ({
   },
   done: {
     flexGrow: 1,
-    fontSize: 24
+    fontSize: 27
   },
   closeMenuButton: {
     marginRight: "auto",
@@ -103,6 +106,7 @@ function ResponsiveDrawer() {
   return (
     <div className={classes.root}>
       <CssBaseline />
+      <Grid item xs={9}>
       <AppBar position="fixed" className={classes.appBar} color="secondary">
         <Toolbar>
           <IconButton
@@ -115,11 +119,7 @@ function ResponsiveDrawer() {
             <MenuIcon />
           </IconButton>
           <Hidden only="xs">
-            <Link style={{ textDecoration: "none", color: "white" }} to="/">
-              <Button color="inherit" className={classes.done}>
-                <i className="fa fa-home"></i>
-              </Button>
-            </Link>
+
             <span className={classes.btn}>
               <Link
                 style={{ textDecoration: "none", color: "white" }}
@@ -133,42 +133,6 @@ function ResponsiveDrawer() {
               >
                 <Button color="inherit">Blog</Button>
               </Link>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/media"
-              >
-                <Button color="inherit">Media</Button>
-              </Link>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/gallery"
-              >
-                <Button color="inherit">Gallery</Button>
-              </Link>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/team"
-              >
-                <Button color="inherit">Team</Button>
-              </Link>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/achievements"
-              >
-                <Button color="inherit">Achievements</Button>
-              </Link>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/Distributor"
-              >
-                <Button color="inherit">Distributor</Button>
-              </Link>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/Franchise"
-              >
-                <Button color="inherit">Franchise</Button>
-              </Link>
 
               <a
                 style={{ textDecoration: "none", color: "white" }}
@@ -176,18 +140,7 @@ function ResponsiveDrawer() {
               >
                 <Button color="inherit">Contact</Button>
               </a>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/SignIn"
-              >
-                <Button color="inherit">Sign In</Button>
-              </Link>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/SignUp"
-              >
-                <Button color="inherit">Sign Up</Button>
-              </Link>
+                <Button color="inherit">More info</Button>
             </span>
           </Hidden>
         </Toolbar>
@@ -217,6 +170,7 @@ function ResponsiveDrawer() {
           </Drawer>
         </Hidden>
       </nav>
+    </Grid>
     </div>
   );
 }
