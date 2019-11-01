@@ -1,16 +1,14 @@
 import React, { Component } from "react";
-
-import AwesomeSlider from "react-awesome-slider";
-import "react-awesome-slider/dist/styles.css";
 import Grid from "@material-ui/core/Grid";
 import "./Home.css";
 import { Link } from "@reach/router";
 import Signin from "../SignIn/SignIn";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from "react-responsive-carousel";
 import Fly from "../../carbadex.JPG";
 import Front from "../../front.png";
 import Left from "../../left.png";
 import Logo from "../../logo.png";
-import { fontSize } from "@material-ui/system";
 
 class Home extends Component {
   render() {
@@ -50,11 +48,17 @@ class Home extends Component {
                 <li>Decreases half the consumption of fuel</li>
               </div>
             </div>
-            <AwesomeSlider className="Slider">
-              <div data-src={Front} />
-              <div data-src={Fly} />
-              <div data-src={Left} />
-            </AwesomeSlider>
+            <Carousel autoPlay>
+              <div>
+                <img src={Front} />
+              </div>
+              <div>
+                <img src={Left} />
+              </div>
+              <div>
+                <img src={Fly} />
+              </div>
+            </Carousel>
           </div>
         </Grid>
         <Grid item xs={3}>

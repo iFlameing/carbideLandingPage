@@ -5,7 +5,7 @@ import Typography from "@material-ui/core/Typography";
 
 export default function footer() {
   return (
-    <div id="contact" style={{ marginTop: 50 }}>
+    <div id="contact" style={{ marginTop: 10 }}>
       <div id="icon">
         <Grid container>
           <Grid item xs={12} sm={4} md={4} lg={4} xl>
