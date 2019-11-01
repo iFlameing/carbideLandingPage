@@ -10,6 +10,7 @@ import Fly from "../../carbadex.JPG";
 import Front from "../../front.png";
 import Left from "../../left.png";
 import Logo from "../../logo.png";
+import { fontSize } from "@material-ui/system";
 
 class Home extends Component {
   render() {
@@ -34,9 +35,21 @@ class Home extends Component {
             </span>
           </div>
           <div className="Side_text">
-            <span className="Written_text">
-              Increase your efficiency by 8%.
-            </span>
+            <div className="Written_text">
+              <div style={{ textDecoration: "underline", fontSize: 30 }}>
+                ABOUT CARBADEX
+              </div>
+              <br />
+              <div>
+                <li>
+                  Increase your efficiency of your vehicle's engine by 200%.
+                </li>
+              </div>
+              <br />
+              <div>
+                <li>Decreases half the consumption of fuel</li>
+              </div>
+            </div>
             <AwesomeSlider className="Slider">
               <div data-src={Front} />
               <div data-src={Fly} />
