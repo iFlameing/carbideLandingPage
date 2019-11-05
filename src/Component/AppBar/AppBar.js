@@ -14,7 +14,7 @@ import Toolbar from "@material-ui/core/Toolbar";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import { Link } from "@reach/router";
 import Button from "@material-ui/core/Button";
-import Grid from '@material-ui/core/Grid';
+import Grid from "@material-ui/core/Grid";
 
 const drawerWidth = 240;
 const useStyles = makeStyles(theme => ({
@@ -22,7 +22,7 @@ const useStyles = makeStyles(theme => ({
     display: "flex"
   },
   btn: {
-    flexGrow: 1,
+    flexGrow: 1
   },
   drawer: {
     [theme.breakpoints.up("sm")]: {
@@ -107,70 +107,96 @@ function ResponsiveDrawer() {
     <div className={classes.root}>
       <CssBaseline />
       <Grid item xs={9}>
-      <AppBar position="fixed" className={classes.appBar} color="secondary">
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="Open drawer"
-            edge="start"
-            onClick={handleDrawerToggle}
-            className={classes.menuButton}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Hidden only="xs">
-
-            <span className={classes.btn}>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/about"
-              >
-                <Button color="inherit">About</Button>
-              </Link>
-              <Link
-                style={{ textDecoration: "none", color: "white" }}
-                to="/blog"
-              >
-                <Button color="inherit">Blog</Button>
-              </Link>
-
-              <a
-                style={{ textDecoration: "none", color: "white" }}
-                href="#contact"
-              >
-                <Button color="inherit">Contact</Button>
-              </a>
-                <Button color="inherit">More info</Button>
-            </span>
-          </Hidden>
-        </Toolbar>
-      </AppBar>
-
-      <nav className={classes.drawer}>
-        <Hidden smUp implementation="css">
-          <Drawer
-            variant="temporary"
-            anchor={theme.direction === "rtl" ? "right" : "left"}
-            open={mobileOpen}
-            onClose={handleDrawerToggle}
-            classes={{
-              paper: classes.drawerPaper
-            }}
-            ModalProps={{
-              keepMounted: true
-            }}
-          >
+        <AppBar position="fixed" className={classes.appBar} color="secondary">
+          <Toolbar>
             <IconButton
+              color="inherit"
+              aria-label="Open drawer"
+              edge="start"
               onClick={handleDrawerToggle}
-              className={classes.closeMenuButton}
+              className={classes.menuButton}
             >
-              <CloseIcon />
+              <MenuIcon />
             </IconButton>
-            {drawer}
-          </Drawer>
-        </Hidden>
-      </nav>
-    </Grid>
+            <Hidden only="xs">
+              <span className={classes.btn}>
+                <Link
+                  style={{ textDecoration: "none", color: "white" }}
+                  to="/about"
+                >
+                  <Button
+                    color="inherit"
+                    style={{ fontSize: 20, color: "yellow", marginLeft: 20 }}
+                  >
+                    About
+                  </Button>
+                </Link>
+                <Link
+                  style={{
+                    textDecoration: "none",
+                    color: "white",
+                    marginLeft: 20
+                  }}
+                  to="/blog"
+                >
+                  <Button
+                    color="inherit"
+                    style={{ fontSize: 20, color: "yellow", marginLeft: 20 }}
+                  >
+                    Blog
+                  </Button>
+                </Link>
+
+                <a
+                  style={{
+                    textDecoration: "none",
+                    color: "yellow"
+                  }}
+                  href="#contact"
+                >
+                  <Button
+                    color="inherit"
+                    style={{ fontSize: 20, marginLeft: 20 }}
+                  >
+                    Contact
+                  </Button>
+                </a>
+                <Button
+                  color="inherit"
+                  style={{ fontSize: 20, color: "yellow", marginLeft: 20 }}
+                >
+                  More info
+                </Button>
+              </span>
+            </Hidden>
+          </Toolbar>
+        </AppBar>
+
+        <nav className={classes.drawer}>
+          <Hidden smUp implementation="css">
+            <Drawer
+              variant="temporary"
+              anchor={theme.direction === "rtl" ? "right" : "left"}
+              open={mobileOpen}
+              onClose={handleDrawerToggle}
+              classes={{
+                paper: classes.drawerPaper
+              }}
+              ModalProps={{
+                keepMounted: true
+              }}
+            >
+              <IconButton
+                onClick={handleDrawerToggle}
+                className={classes.closeMenuButton}
+              >
+                <CloseIcon />
+              </IconButton>
+              {drawer}
+            </Drawer>
+          </Hidden>
+        </nav>
+      </Grid>
     </div>
   );
 }

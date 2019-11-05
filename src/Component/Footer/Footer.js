@@ -50,25 +50,6 @@ export default function footer() {
         </Grid>
       </div>
       <footer className="copyright">
-        <div className="icons">
-          <a
-            href="https://www.facebook.com/flydexautomobiles/"
-            id="icon1"
-            className="fa fa-facebook"
-          ></a>
-          <a
-            href="https://www.instagram.com/flydexautomobiles/"
-            id="icon2"
-            className="fa fa-instagram"
-          ></a>
-          <a href="#" id="icon4" className="fa fa-twitter"></a>
-
-          <a
-            href="mailto:flydexautomobiles@gmail.com"
-            id="icon3"
-            className="fa fa-envelope"
-          ></a>
-        </div>
         <p>
           © 2019 <a href="flydexautomobiles.com">Flydex Automobiles.</a> All
           Rights Reserved.

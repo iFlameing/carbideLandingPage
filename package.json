@@ -1,21 +1,15 @@
 {
-  "name": "mech",
+  "name": "carbide",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@material-ui/core": "^4.3.3",
-    "@material-ui/icons": "^4.2.1",
+    "@material-ui/core": "^4.5.2",
+    "@material-ui/icons": "^4.5.1",
     "@reach/router": "^1.2.1",
-    "eslint": "^6.3.0",
-    "font-awesome": "^4.7.0",
-    "material-ui-icons": "^1.0.0-beta.36",
-    "react": "^16.9.0",
-    "react-awesome-slider": "^2.0.1",
-    "react-dom": "^16.9.0",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0",
     "react-responsive-carousel": "^3.1.51",
-    "react-router-dom": "^5.0.1",
-    "react-scripts": "3.1.1",
-    "react-typist": "^2.0.5"
+    "react-scripts": "3.2.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -37,16 +31,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/iFlameing/carbideLandingPage.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/iFlameing/carbideLandingPage.git"
   }
 }

@@ -1,36 +1,26 @@
 import React from "react";
+import "./App.css";
 import ResponsiveDrawer from "./Component/AppBar/AppBar";
-import About from "./Component/About/About";
-import Footer from "./Component/Footer/Footer";
-import { Router } from "@reach/router";
 import Home from "./Component/Home/Home";
-import Team from "./Component/Team/Team";
-import Achievements from "./Component/Achievements/Achievements";
-import SignIn from "./Component/SignIn/SignIn";
-import SignUp from "./Component/SignUp/SignUp";
-export default function App() {
+import { Router } from "@reach/router";
+import Fotter from "./Component/Footer/Footer";
+import Courasel from "./Component/Courasel/courasel";
+import About from "./Component/About/About";
+
+function App() {
   return (
-    <div>
+    <div className="App">
       <ResponsiveDrawer />
+      <Home />
       <Router>
-        <Home path="/" />
+        <Courasel path="/" />
       </Router>
       <Router>
-        <About path="about" />
+        <About path="/about" />
       </Router>
-      <Router>
-        <Team path="team" />
-      </Router>
-      <Router>
-        <Achievements path="achievements" />
-      </Router>
-      <Router>
-        <SignIn path="SignIn" />
-      </Router>
-      <Router>
-        <SignUp path="SignUp" />
-      </Router>
-      <Footer />
+      <Fotter />
     </div>
   );
 }
+
+export default App;

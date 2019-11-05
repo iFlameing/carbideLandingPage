@@ -1,71 +1,46 @@
 import React, { Component } from "react";
-import Grid from "@material-ui/core/Grid";
-import "./Home.css";
 import { Link } from "@reach/router";
-import Signin from "../SignIn/SignIn";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from "react-responsive-carousel";
-import Fly from "../../carbadex.JPG";
-import Front from "../../front.png";
-import Left from "../../left.png";
 import Logo from "../../logo.png";
 
+import "./Home.css";
 class Home extends Component {
   render() {
     return (
-      <div className="house">
-        <Grid item xs={9}>
-          <div className="background_logo">
-            <Link to="/">
-              <img
-                className="logo"
-                src={Logo}
-                style={{ marginLeft: 30, marginTop: 20 }}
-              />
-            </Link>
-            <span className="Flydex">
-              <span className="Flydex_first_text">F</span>
-              <span className="Flydex_text">lydex</span>
-              <br />
-              <span className="Flydex_first_text">A</span>
-              <span className="Flydex_text">utomobiles</span>
-              <br />
+      <div>
+        <div style={{ marginTop: 50, backgroundColor: "black" }}>
+          <h1>
+            <span style={{ fontSize: 70, color: "yellow" }}>F</span>
+            <span className="spanmargin">l</span>{" "}
+            <span className="spanmargin">y</span>
+            <span className="spanmargin">d</span>
+            <span className="spanmargin">e</span>
+            <span className="spanmargin">x</span>
+            <span style={{ marginLeft: 30, fontSize: 70, color: "yellow" }}>
+              A
             </span>
-          </div>
-          <div className="Side_text">
-            <div className="Written_text">
-              <div style={{ textDecoration: "underline", fontSize: 30 }}>
-                ABOUT CARBADEX
-              </div>
-              <br />
-              <div>
-                <li>
-                  Increase your efficiency of your vehicle's engine by 200%.
-                </li>
-              </div>
-              <br />
-              <div>
-                <li>Decreases half the consumption of fuel</li>
-              </div>
-            </div>
-            <Carousel autoPlay>
-              <div>
-                <img src={Front} />
-              </div>
-              <div>
-                <img src={Left} />
-              </div>
-              <div>
-                <img src={Fly} />
-              </div>
-            </Carousel>
-          </div>
-        </Grid>
-        <Grid item xs={3}>
-          <Signin />
-        </Grid>
+            <span className="spanmargin">u</span>
+            <span className="spanmargin">t</span>
+            <span className="spanmargin">o</span>
+            <span className="spanmargin">m</span>
+            <span className="spanmargin">
+              o<span className="spanmargin">b</span>
+              <span className="spanmargin">i</span>
+              <span className="spanmargin">l</span>
+              <span className="spanmargin">e</span>
+              <span className="spanmargin">s</span>
+            </span>
+          </h1>
+          <p style={{ color: "yellow", fontSize: 30, marginBottom: 0 }}>
+            A solution to energy and environmental crisis and Lets Start a
+            revolution
+          </p>
+        </div>
+        <Link to="/">
+          <img className="imageLogo" src={Logo} alt="Logo" />
+        </Link>
       </div>
     );
   }
 }
+
 export default Home;
