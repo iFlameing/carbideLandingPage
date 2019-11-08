@@ -4,7 +4,6 @@ import { Carousel } from "react-responsive-carousel";
 import HomePng from "../../home.png";
 import First from "../../1.png";
 import Second from "../../2.png";
-import Third from "../../3.png";
 
 class Courasel extends Component {
   render() {
@@ -19,9 +18,6 @@ class Courasel extends Component {
           </div>
           <div>
             <img src={Second} alt="Second" />
-          </div>
-          <div>
-            <img src={Third} alt="Third" />
           </div>
         </Carousel>
       </div>
