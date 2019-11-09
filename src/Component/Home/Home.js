@@ -31,8 +31,7 @@ class Home extends Component {
             </span>
           </h1>
           <p style={{ color: "yellow", fontSize: 30, marginBottom: 0 }}>
-            A solution to energy and environmental crisis and Lets Start a
-            revolution
+            A solution to energy and environmental crisis
           </p>
         </div>
         <Link to="/">
