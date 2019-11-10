@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import product from "../../product.png";
 import AppBar   from "../AppBar/AppBar";
-import Home from "../Home/Home";
 import "./Product.css";
 
 class Product extends Component{

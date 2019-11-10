@@ -30,7 +30,7 @@ class Home extends Component {
               <span className="spanmargin">s</span>
             </span>
           </h1>
-          <p style={{ color: "yellow", fontSize: 30, marginBottom: 0 }}>
+          <p className="paragraph">
             A solution to energy and environmental crisis
           </p>
         </div>

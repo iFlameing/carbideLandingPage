@@ -20,6 +20,10 @@
     color: yellow;
 }
 
+.paragraph{
+    color: yellow; font-size: 30px; margin-bottom: 0;
+}
+
 
 @media(max-width: 500px){
     .spanmargin{
@@ -37,6 +41,9 @@
         top:40px;
         left: 10px;
         z-index: 100;
+    }
+    .paragraph{
+        font-size: 15px;
     }
 }
 

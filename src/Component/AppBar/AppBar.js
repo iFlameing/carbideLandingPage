@@ -64,7 +64,7 @@ function ResponsiveDrawer() {
     "Home",
     "About",
     "Blog",
-    "Media",
+    "Product",
     "Gallery",
     "Team",
     "Achievements",
