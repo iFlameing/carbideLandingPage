@@ -137,6 +137,21 @@ function ResponsiveDrawer() {
                     color: "white",
                     marginLeft: 20
                   }}
+                  to="/product"
+                >
+                  <Button
+                    color="inherit"
+                    style={{ fontSize: 20, color: "yellow", marginLeft: 20 }}
+                  >
+                    Product
+                  </Button>
+                </Link>
+                <Link
+                  style={{
+                    textDecoration: "none",
+                    color: "white",
+                    marginLeft: 20
+                  }}
                   to="/blog"
                 >
                   <Button
