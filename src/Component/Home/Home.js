@@ -9,13 +9,13 @@ class Home extends Component {
       <div>
         <div style={{ marginTop: 50, backgroundColor: "black" }}>
           <h1>
-            <span style={{ fontSize: 70, color: "yellow" }}>F</span>
-            <span className="spanmargin">l</span>{" "}
+            <span className="spanmargin1">F</span>
+            <span className="spanmargin">l</span>
             <span className="spanmargin">y</span>
             <span className="spanmargin">d</span>
             <span className="spanmargin">e</span>
             <span className="spanmargin">x</span>
-            <span style={{ marginLeft: 30, fontSize: 70, color: "yellow" }}>
+            <span className="spanmargin1">
               A
             </span>
             <span className="spanmargin">u</span>
